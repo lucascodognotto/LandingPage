@@ -240,8 +240,8 @@ h1 {
 .container-mapa {
     position: relative;
     overflow: hidden;
-    width: 100px;
-    padding-top: 20px;
+    width: 100%;
+    padding: 20%;
 }
 
 .mapa-responsivo {
@@ -255,7 +255,14 @@ h1 {
     height: 100%;
 }
 
-.container-video {
+.container-video  {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 30%
+}
+
+.video-responsivo {
     position: absolute;
     margin-top: 10px;
     top: 0;
@@ -333,7 +340,7 @@ footer {
 }
 
 .mapa-responsivo {
-    position: relative;
+    position: absolute;
     margin-top: 10px;
     top: 0;
     left: 0;
